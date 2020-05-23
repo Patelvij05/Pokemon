@@ -1,0 +1,59 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.0"
+
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:multidex:$multidexVersion"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "androidx.appcompat:appcompat:$supportVersion"
+    implementation "com.google.android.material:material:$materialVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    implementation "androidx.constraintlayout:constraintlayout:$constraintVersion"
+    implementation "androidx.core:core-ktx:$ktxVersion"
+    implementation "fr.tvbarthel.blurdialogfragment:lib:$blurDialogVersion"
+    implementation "com.squareup.okhttp3:logging-interceptor:$loggingInterceptorVersion"
+    implementation "com.squareup.okhttp3:okhttp:$loggingVersion"
+    implementation "com.squareup.picasso:picasso:$rootProject.picassoVersion"
+    implementation "com.daimajia.androidanimations:library:$rootProject.animationsVersion"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'commons-codec:commons-codec:1.10'
+    implementation('uk.co.chrisjenx:calligraphy:2.3.0') {
+        exclude module: 'appcompat-v7'
+    }
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation "androidx.test:runner:$androidTestVersion"
+    androidTestImplementation "androidx.test:core:$androidTestVersion"
+    androidTestImplementation "androidx.test.ext:junit-ktx:$androidTestVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-core:$espressoCoreVersion"
+    androidTestImplementation "androidx.test.espresso:espresso-contrib:$espressoCoreVersion"
+    androidTestImplementation "io.mockk:mockk-android:$mockkVersion"
+
+//    debugImplementation "androidx.fragment:fragment-testing:$fragmentVersion"
+//    implementation "androidx.fragment:fragment:$fragmentVersion"
+    androidTestImplementation 'androidx.test:rules:1.3.0-beta01'
+    androidTestImplementation "androidx.test:monitor:$monitorVersion"
+}

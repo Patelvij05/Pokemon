@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerVertical="true"
+    app:cardCornerRadius="16dp"
+    app:cardBackgroundColor="@color/white"
+    tools:context=".customview.dialog.BaseBottomAlertDialogFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_padding"
+        android:layout_marginBottom="@dimen/default_margin_padding">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="@dimen/poke_sprite_dimen"
+            android:layout_height="@dimen/poke_sprite_dimen"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/default_margin_padding_large"
+            android:src="@drawable/ic_bottom_alert_dialog" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iconImageView"
+            android:layout_marginStart="@dimen/default_margin_padding_extra_extra_large"
+            android:layout_marginTop="@dimen/default_margin_padding_large"
+            android:layout_marginEnd="@dimen/default_margin_padding_extra_extra_large"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.Noto_Regular"
+            android:textSize="@dimen/default_text_size"
+            android:textStyle="bold"
+            tools:text="Name" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/subTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleTextView"
+            android:layout_marginStart="@dimen/default_margin_padding_large"
+            android:layout_marginTop="@dimen/default_margin_padding_large"
+            android:layout_marginEnd="@dimen/default_margin_padding_large"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.Noto_Regular"
+            android:textSize="@dimen/default_text_size_extra_small"
+            tools:text="Pokemon" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/linkTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subTitleTextView"
+            android:layout_marginStart="@dimen/default_margin_padding_large"
+            android:layout_marginTop="@dimen/default_margin_padding_large"
+            android:layout_marginEnd="@dimen/default_margin_padding_large"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textAppearance="@style/TextAppearance.Noto_Regular"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/default_text_size_extra_small"
+            tools:text="Move" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/baseLinkTextRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linkTextView"
+            android:gravity="center"
+            tools:listitem="@layout/item_bottom_alert_dialog_link_cell" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/baseBottomAlertDialogRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/baseLinkTextRecyclerView"
+            android:layout_marginTop="@dimen/default_margin_padding_extra_extra_large"
+            android:gravity="center"
+            tools:listitem="@layout/item_bottom_alert_dialog_button_cell" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

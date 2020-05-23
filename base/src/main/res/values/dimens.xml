@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_button_padding_vertical">4dp</dimen>
+    <dimen name="default_button_padding_horizontal">12dp</dimen>
+    <dimen name="default_button_round_corner">8dp</dimen>
+    <dimen name="default_button_round_little_corner">4dp</dimen>
+    <dimen name="default_button_focused_stroke_width">1dp</dimen>
+    <dimen name="default_button_size">48dp</dimen>
+    
+    <dimen name="default_text_size_extra_extra_extra_extra_small">8sp</dimen>
+    <dimen name="default_text_size_extra_extra_extra_small">12sp</dimen>
+    <dimen name="default_text_size_extra_extra_extra_medium">14sp</dimen>
+    <dimen name="default_text_size_extra_extra_small">15sp</dimen>
+    <dimen name="default_text_size_extra_small">16sp</dimen>
+    <dimen name="default_text_size_smaller">18sp</dimen>
+    <dimen name="default_text_size_small">20sp</dimen>
+    <dimen name="default_text_size_medium">23sp</dimen>
+    <dimen name="default_text_size">24sp</dimen>
+    <dimen name="default_text_size_large">26sp</dimen>
+    <dimen name="default_text_size_large_28">28sp</dimen>
+    <dimen name="default_text_size_extra_large">30sp</dimen>
+    <dimen name="default_text_size_extra_extra_large">36sp</dimen>
+    <dimen name="default_text_size_extra_extra_extra_large">48sp</dimen>
+    <dimen name="default_text_size_extra_extra_extra_extra_large">56sp</dimen>
+
+    <dimen name="default_margin_padding_extra_extra_small">1dp</dimen>
+    <dimen name="default_margin_padding_extra_small">2dp</dimen>
+    <dimen name="default_margin_padding_small">4dp</dimen>
+    <dimen name="default_margin_padding">8dp</dimen>
+    <dimen name="default_margin_padding_medium">12dp</dimen>
+    <dimen name="default_margin_padding_large">16dp</dimen>
+    <dimen name="default_margin_padding_extra_large">24dp</dimen>
+    <dimen name="default_margin_padding_extra_extra_large">32dp</dimen>
+    <dimen name="default_margin_padding_extra_extra_extra_large">44dp</dimen>
+    <dimen name="default_margin_padding_extra_extra_extra_extra_large">56dp</dimen>
+    <dimen name="default_margin_padding_extra_extra_extra_extra_extra_large">62dp</dimen>
+
+    <dimen name="action_bar_icon_size">32dp</dimen>
+    <dimen name="passcode_icon_size">72dp</dimen>
+
+    <dimen name="margin_xxsmall">3dp</dimen>
+    <dimen name="margin_xsmall">5dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">15dp</dimen>
+    <dimen name="margin_xlarge">18dp</dimen>
+    <dimen name="margin_xxlarge">22dp</dimen>
+
+    <dimen name="font_product_type_title">24sp</dimen>
+    <dimen name="font_product_type_customer_deposit_title">20sp</dimen>
+    <dimen name="default_margin_product_type_customer_deposit_title_top">39dp</dimen>
+    <dimen name="default_margin_product_type_card_left">14dp</dimen>
+    <dimen name="default_margin_product_type_card_right">15dp</dimen>
+    <dimen name="default_margin_product_type_card_top">16dp</dimen>
+
+    <dimen name="default_margin_product_type_image_card_right">4dp</dimen>
+    <dimen name="default_margin_product_type_title_card_left">12dp</dimen>
+    <dimen name="default_margin_product_type_title_card_bottom">16dp</dimen>
+    <dimen name="font_product_type_title_card">21sp</dimen>
+    <dimen name="font_product_type_sub_title_card">18sp</dimen>
+
+    <dimen name="padding_large">14dp</dimen>
+
+    <dimen name="font_title">18sp</dimen>
+    <dimen name="font_subtitle">13sp</dimen>
+
+    <dimen name="biometric_bg_size">20dp</dimen>
+    <dimen name="biometric_logo_size">48dp</dimen>
+    <dimen name="biometric_bottom_sheet_padding">16dp</dimen>
+    <dimen name="biometric_fingerprint_image_size">60dp</dimen>
+
+    <dimen name="base_setup_passcode_background_padding">16dp</dimen>
+
+    <dimen name="piSize1">8dp</dimen>
+    <dimen name="piSize2">8dp</dimen>
+
+    <dimen name="enter_debitcard_edittext_radius">4dp</dimen>
+
+    <dimen name="font_select_onboard_title">24sp</dimen>
+    <dimen name="font_select_onboard_description">16sp</dimen>
+    <dimen name="font_select_onboard_name_thai">21sp</dimen>
+    <dimen name="font_select_onboard_name_eng">18sp</dimen>
+    <dimen name="button_corner_radius">16dp</dimen>
+    <dimen name="button_stroke_width">1dp</dimen>
+    <dimen name="button_text_size">11sp</dimen>
+    <dimen name="custom_recycler_view_item_radius">8dp</dimen>
+    <dimen name="poke_sprite_dimen">108dp</dimen>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners android:bottomLeftRadius="@dimen/default_button_round_corner" android:topLeftRadius="@dimen/default_button_round_corner" />
+            <solid android:color="@color/lipstick_two" />
+        </shape>
+    </item>
+</selector>

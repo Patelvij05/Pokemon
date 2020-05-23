@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pokemon</string>
+    <string name="pokemon_name">Pokemon</string>
+
+    <string name="common_header_error_message2">Unable to proceed</string>
+    <string name="common_error_message2">Please try again later</string>
+    <string name="common_accept_button">OK</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    app:cardCornerRadius="12dp"
+    tools:context=".customview.dialog.BaseAlertDialogFragment">
+
+    <RelativeLayout
+        android:layout_marginTop="11dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="97dp"
+            android:layout_height="97dp"
+            android:layout_centerHorizontal="true"
+            tools:srcCompat="@drawable/ic_alert_dialog" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/titleTextView"
+            style="@style/PokemonTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iconImageView"
+            android:gravity="center"
+            android:textColor="@color/black_light"
+            android:textAppearance="@style/TextAppearance.Noto_Bold"
+            android:textSize="24sp"
+            tools:text="Name" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/contentTextView"
+            style="@style/PokemonTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titleTextView"
+            android:layout_marginTop="8.6dp"
+            android:gravity="center"
+            android:textColor="@color/black_light"
+            android:textSize="16sp"
+            android:textAppearance="@style/TextAppearance.Noto_Regular"
+            tools:text="Details" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/acceptButton"
+            style="@style/PokemonTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/contentTextView"
+            android:padding="@dimen/default_margin_padding_large"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:textColor="@color/lipstick_two"
+            android:textSize="18sp"
+            android:layout_marginTop="@dimen/default_margin_padding_extra_extra_large"
+            tools:text="Okay" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

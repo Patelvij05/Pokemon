@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Base</string>
+
+    <string name="font_default">font/noto/NotoSansThai-Medium.ttf</string>
+    <string name="font_big_number">font/roboto/Roboto-Bold.ttf</string>
+    <string name="font_big_number_light">font/roboto/Roboto-Light.ttf</string>
+    <string name="font_big_number_medium">font/roboto/Roboto-Medium.ttf</string>
+    <string name="font_big_number_regular">font/roboto/Roboto-Regular.ttf</string>
+    <string name="font_medium_text">font/noto/NotoSansThai-Medium.ttf</string>
+    <string name="font_bold_text">font/noto/NotoSansThai-Bold.ttf</string>
+    <string name="font_regular_text">font/noto/NotoSansThai-Regular.ttf</string>
+
+    <!-- Base alert success dialog -->
+    <string name="base_alert_success_dialog">Verification Successful!</string>
+
+
+    <string name="touch_the_fingerprint_sensor">Touch the fingerprint sensor</string>
+    <string name="message_general_error_title">General Error</string>
+
+    <!--general error alert dialog-->
+    <string name="unable_to_proceed_title">Unable to proceed</string>
+    <string name="please_try_again_later_description">Please try again later</string>
+    <string name="ok">OK</string>
+    <string name="loading">Loading ...</string>
+    <string name="message_general_error">Message General Error</string>
+
+
+</resources>

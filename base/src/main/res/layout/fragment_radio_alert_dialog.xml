@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/round_cornor_background"
+    tools:context=".customview.dialog.BaseAlertDialogFragment">
+
+    <TextView
+        android:layout_marginStart="@dimen/default_margin_padding_large"
+        android:layout_marginTop="@dimen/default_margin_padding_extra_extra_large"
+        android:layout_marginBottom="@dimen/default_margin_padding_small"
+        android:id="@+id/title_textView"
+        android:textSize="22sp"
+        style="@style/TextAppearance.Noto_Bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginStart="@dimen/default_margin_padding_large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin_padding_large"
+        android:id="@+id/radio_recyclerView"/>
+
+</LinearLayout>
+

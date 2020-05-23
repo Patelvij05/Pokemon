@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Universal -->
+    <dimen name="margin">12dp</dimen>
+
+    <!-- TextView -->
+    <dimen name="text_16">16sp</dimen>
+</resources>
